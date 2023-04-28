@@ -48,9 +48,8 @@ TODO: You may express this function call example through either a "main function
 
 ## Learning Objectives
 
-TODO: Review the learning objectives at [Learning Objectives for Data
-Abstraction
-structures](https://proactiveprogrammers.com/data-abstraction/learning-objectives-data-abstraction/)
+TODO: Review the learning objectives at [Learning Objectives for Discrete
+structures](https://proactiveprogrammers.com/discrete-structures/learning-objectives-discrete-structures/)
 and then use the following instructions to complete the next questions.
 
 TODO: The learning objectives that you state and discuss should be different than the ones
