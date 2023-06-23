@@ -48,6 +48,7 @@ jobs:
         
         - name: Run BranchWrite
           uses: GatorEducator/BranchWrite@v1
+          if: always()
           with:
             repo-token: ${{ secrets.GITHUB_TOKEN }}
             branch: insight
