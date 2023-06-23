@@ -45,3 +45,14 @@ jobs:
           run:  |
             pipx install gatorgrade
             gatorgrade --config config/gatorgrade.yml --report env md GITHUB_STEP_SUMMARY
+        
+        - name: Run BranchWrite
+          uses: GatorEducator/BranchWrite@v1
+          with:
+            repo-token: ${{ secrets.GITHUB_TOKEN }}
+            branch: insight
+            destination-path: insight/insight.json
+            source: env
+            content: GITHUB_STEP_SUMMARY
+            
+            
