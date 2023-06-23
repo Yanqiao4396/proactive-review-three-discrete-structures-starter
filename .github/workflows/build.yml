@@ -47,13 +47,13 @@ jobs:
             gatorgrade --config config/gatorgrade.yml --report env md GITHUB_STEP_SUMMARY
         
         - name: Run BranchWrite
-          uses: GatorEducator/BranchWrite@v1
+          uses: GatorEducator/BranchWrite@v1.0.1
           if: always()
           with:
             repo-token: ${{ secrets.GITHUB_TOKEN }}
             branch: insight
-            destination-path: insight/insight.json
+            path: insight/insight.json
             source: env
-            content: GITHUB_STEP_SUMMARY
+            source-arg: GITHUB_STEP_SUMMARY
             
             
